@@ -50,6 +50,7 @@ let s:pink      = g:dracula#palette.pink
 let s:purple    = g:dracula#palette.purple
 let s:red       = g:dracula#palette.red
 let s:yellow    = g:dracula#palette.yellow
+let s:darkblue  = g:dracula#palette.darkblue
 
 let s:none      = ['NONE', 'NONE']
 
@@ -209,7 +210,7 @@ else
   call s:h('DraculaDiffDelete', s:red, s:bgdark)
 endif
 
-call s:h('DraculaDiffText', s:bg, s:orange)
+call s:h('DraculaDiffText', s:darkblue, s:orange)
 
 " }}}2
 

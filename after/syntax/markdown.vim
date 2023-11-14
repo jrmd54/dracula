@@ -16,7 +16,7 @@ if b:current_syntax ==# 'mkd'
   hi! link mkdCodeStart   DraculaGreen
   hi! link mkdHeading     DraculaPurpleBold
   hi! link mkdInlineUrl   DraculaLink
-  " hi! link mkdItalic      DraculaYellowItalic DISABLED CF COLORS ALL FILE AFTER A REF IS FIND
+  hi! link mkdItalic      DraculaYellowItalic
   hi! link mkdLink        DraculaPink
   hi! link mkdListItem    DraculaCyan
   hi! link mkdRule        DraculaComment

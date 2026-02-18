@@ -51,6 +51,8 @@ let s:purple    = g:dracula#palette.purple
 let s:red       = g:dracula#palette.red
 let s:yellow    = g:dracula#palette.yellow
 let s:darkblue  = g:dracula#palette.darkblue
+let s:custom_white = g:dracula#palette.white
+let s:darkred  = g:dracula#palette.darkred
 
 let s:none      = ['NONE', 'NONE']
 
@@ -210,7 +212,8 @@ else
   call s:h('DraculaDiffDelete', s:red, s:bgdark)
 endif
 
-call s:h('DraculaDiffText', s:darkblue, s:orange)
+" call s:h('DraculaDiffText', s:darkblue, s:orange)
+call s:h('DraculaDiffText', s:custom_white, s:darkred)
 
 " }}}2
 
